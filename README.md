@@ -50,13 +50,47 @@ This utilizes a server we already set up. It will be taken down after the hackat
 
 ## Complete guide to run your own server
 
-### 0 
+### 0 Get API keys!
 
-### 1 Start the EchoKit server
+* [ElevenLabs](https://elevenlabs.io/) for voice services
+* [Groq](https://groq.com/) for LLM services -- You could [run an LLM API server](https://github.com/LlamaEdge/LlamaEdge) on your local device
+* [Tavily](https://www.tavily.com/) for web search services
 
-### 2 Start the MCP server
+### 1 Start the Tavily MCP server
+
+We created an MCP server that performs simple web search using Tavily for Austin related subjects. Replace the Tavily API key with your own. The commands below start the MCP server at port 8011. If you change that, you should change the `llm.mcp_server` section of [config.toml](config.toml) as well.
+
+```
+git clone https://github.com/juntao/tavily-mcp
+cd tavily-mcp
+
+npm install
+npm run build
+
+export TAVILY_API_KEY=tvly-SEARCH-KEY
+
+nohup npx mcp-proxy --port 8011 npx /root/github/tavily-mcp/build/index.js &
+```
+
+### 2 Start the EchoKit server
+
+The following `docker` command uses the [config.toml](config.toml) in the current directory annd then starts the EchoKit server at port 8080.
+
+```
+docker run --rm \
+  -p 8080:8080 \
+  -v $(pwd)/config.toml:/app/config.toml \
+  secondstate/echokit:latest-server-vad &
+```
+
 
 ### 3 Figure out the IP address
 
+On your EchoKit device or web client, you need to [configure the EchoKit server URL](https://echokit.dev/docs/server/setup). If they are both connected to the same WIFI network, you should be able find the IP address from your computer's WIFI setting. Let's say that it is `10.79.67.148`, the EchoKit server URL is
 
+```
+ws://10.79.67.148:8080/ws/
+```
+
+Happy hacking!
 

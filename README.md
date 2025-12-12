@@ -6,6 +6,17 @@ By [Michael Yuan](https://github.com/juntao) and Tony Yuan
 
 DEMO
 
+An open-source smart hardware device configured to chat to people about Austin in voice. Perfect for new comers or anyone who wants to move to Austin. It can chat about
+
+* History
+* Culture
+* Local politics
+* Housing
+* Schools
+* Neighborhoods
+* Current weather
+* Current events
+
 ## Quick start with an EchoKit device
 
 This utilizes a server we already set up. It will be taken down after the hackathon. You should start and run your own server.
@@ -33,7 +44,7 @@ This utilizes a server we already set up. It will be taken down after the hackat
 * [Docker](https://www.docker.com/)
 * [LlamaEdge](https://llamaedge.com/docs/ai-models/) (if running locally)
 * [EchoKit server](https://github.com/second-state/echokit_server)
-* [EchoKit device](https://echokit.dev/echokit_box.html) (or web client -- see [austin.html](austin.html) above)
+* Open source hardware: [EchoKit device](https://echokit.dev/echokit_box.html) (or web client -- see [austin.html](austin.html) above)
 
 ## Complete guide to run your own server
 

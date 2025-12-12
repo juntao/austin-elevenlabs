@@ -25,6 +25,15 @@ This utilizes a server we already set up. It will be taken down after the hackat
 * Enter **server URL**: `ws://45.33.125.24:8051/ws/`
 * Click on **Listen ...** to start chatting!
 
+## Tech stack
+
+* [ElevenLabs](https://elevenlabs.io/)
+* [Groq](https://groq.com/) (or [xAI](https://x.ai/api) or any OpenAI compatible API service)
+* [Tavily](https://www.tavily.com/)
+* [Docker](https://www.docker.com/)
+* [LlamaEdge](https://llamaedge.com/docs/ai-models/) (if running locally)
+* [EchoKit server](https://github.com/second-state/echokit_server)
+* [EchoKit device](https://echokit.dev/echokit_box.html) (or web client -- see [austin.html](austin.html) above)
 
 ## Complete guide to run your own server
 

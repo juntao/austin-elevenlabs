@@ -4,9 +4,9 @@
 
 By [Michael Yuan](https://github.com/juntao) and Tony Yuan
 
-DEMO
+[Watch the 2 minute demo](https://youtu.be/sv6WIgaV_c8)
 
-An open-source smart hardware device configured to chat to people about Austin in voice. Perfect for new comers or anyone who wants to move to Austin. It can chat about
+An open-source smart hardware device configured to chat to people about Austin in voice. Perfect for new comers or anyone who wants to move to Austin. There are over 150 people moving to Austin everyday, and they all want to chat about the culture, life and weather in Austin! Utilizing a Texas-accented voice on ElevenLabs, this device can chat about
 
 * History
 * Culture
@@ -46,7 +46,11 @@ This utilizes a server we already set up. It will be taken down after the hackat
 * [EchoKit server](https://github.com/second-state/echokit_server)
 * Open source hardware: [EchoKit device](https://echokit.dev/echokit_box.html) (or web client -- see [austin.html](austin.html) above)
 
+![](tech_stack.png)
+
 ## Complete guide to run your own server
+
+### 0 
 
 ### 1 Start the EchoKit server
 

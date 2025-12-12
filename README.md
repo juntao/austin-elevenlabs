@@ -20,7 +20,7 @@ This utilizes a server we already set up. It will be taken down after the hackat
 
 This utilizes a server we already set up. It will be taken down after the hackathon. You should start and run your own server.
 
-* Download the [austin.html](austin.html) file from this repo
+* **Download** the [austin.html](austin.html) file from this repo
 * Double click on your local copy of `austin.html' to open it in a browser
 * Enter **server URL**: `ws://45.33.125.24:8051/ws/`
 * Click on **Listen ...** to start chatting!

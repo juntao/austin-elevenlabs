@@ -2,11 +2,13 @@ addr = "0.0.0.0:8080"
 hello_wav = "hello.wav"
 
 [tts]
-platform = "Elevenlabs"
+platform = "elevenlabs"
+url = "wss://api.elevenlabs.io/v1/text-to-speech"
 token = "sk_DEEPVOICE"
 voice = "0GKwxxcRYcg0OlQ1l822"
 
 [asr]
+platform = "openai"
 url = "https://api.groq.com/openai/v1/audio/transcriptions"
 api_key = "gsk_FASTTALKER"
 model = "whisper-large-v3"
@@ -15,7 +17,8 @@ prompt = "Hello\n你好\n(noise)\n(bgm)\n(silence)\n"
 vad_url = "http://localhost:8000/v1/audio/vad"
 
 [llm]
-llm_chat_url = "https://api.groq.com/openai/v1/chat/completions"
+platform = "openai_chat"
+url = "https://api.groq.com/openai/v1/chat/completions"
 api_key = "gsk_FASTTALKER"
 model = "openai/gpt-oss-20b"
 history = 10

@@ -1,6 +1,6 @@
 # Austin culture guide
 
-> Submission to ElevenLabs Worldwide Hackathon in Austin
+> Update: It won the 3rd place at the [ElevenLabs Worldwide Hackathon](https://hackathon.elevenlabs.io/) in Austin
 
 By [Michael Yuan](https://github.com/juntao) and Tony Yuan
 

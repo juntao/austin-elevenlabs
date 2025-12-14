@@ -24,7 +24,7 @@ This utilizes a server we already set up. It will be taken down after the hackat
 * Power up your [EchoKit device](https://echokit.dev/echokit_box.html)
 * Point your browser to https://echokit.dev/setup/
 * Add your Wifi network and password (2.4GHz ONLY)
-* Enter **server URL**: `ws://45.33.125.24:8051/ws/`
+* Enter **server URL**: `ws://chat.echokit.dev:8051/ws/`
 * Click on **Save changes**
 
 ## Quick start with browser-only
@@ -33,7 +33,7 @@ This utilizes a server we already set up. It will be taken down after the hackat
 
 * **Download** the [austin.html](austin.html) file from this repo
 * Double click on your local copy of `austin.html' to open it in a browser
-* Enter **server URL**: `ws://45.33.125.24:8051/ws/`
+* Enter **server URL**: `ws://chat.echokit.dev:8051/ws/`
 * Click on **Listen ...** to start chatting!
 
 ## Tech stack
